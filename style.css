@@ -26,19 +26,25 @@ nav {
 nav li {
 	display: inline;
 	margin: 0 0 0 15px;
+	text-align: center;
 }
 
 nav a {
 	text-transform: uppercase;
 	color: #000000;
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 2vh;
 	text-decoration: none;
 }
 
 nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
+}
+
+
+main.valores{
+	height: 98vh;
 }
 
 .produtos {
@@ -98,9 +104,6 @@ footer {
 	margin: 20px 0 0;
 }
 
-main {
-	
-}
 
 form {
 	margin: 40px 0;
