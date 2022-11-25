@@ -7,6 +7,10 @@ header {
 	padding: 20px 0;
 }
 
+.logo-principal{
+	width: 90px;
+}
+
 .caixa {
 	position: relative;
 	width: 940px;
@@ -15,7 +19,7 @@ header {
 
 nav {
 	position: absolute;
-	top: 110px;
+	top: 50px;
 	right: 0;
 }
 
