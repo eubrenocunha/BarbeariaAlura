@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos</title>
+    <title>Barbearia Alura | Contato</title>
+    <link rel="shortcut icon" href="../imagens/html.ico.ico" type="image/x-icon">
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../estilos/estilos-contato.css">
 </head>
 
 <body>
@@ -24,16 +25,16 @@
     </header>
     <main>
         <form>
-            <label for="nomesobrenome"> Nome e sobrenome</label>
+            <label for="nomesobrenome" class="info"> Nome e sobrenome</label>
             <input type="text" class="imput-padrao" id="nomesobrenome">
 
-            <label for="email"> Telefone</label>
+            <label for="email" class="info"> Telefone</label>
             <input type="email" class="imput-padrao" id="email">
 
-            <label for="telefone"> Whatsapp</label>
+            <label for="telefone" class="info"> Whatsapp</label>
             <input type="tel" class="imput-padrao" id="telefone">
 
-            <label for="mensagem">Mensagem</label>
+            <label for="mensagem" class="info">Mensagem</label>
                 <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
                     <fieldset>
                         <p>Como prefere o nosso contato?</p>
@@ -63,34 +64,13 @@
 
                 <label class="checkbox">
                     <input type="checkbox" checked>
-                    Gostaria de receber nossas novidades por email?
+                    Gostaria de receber <br> 
+                    nossas novidades por email?
                 </label>
 
                 <input type="submit" value="Enviar formulário" class="enviar">
         </form>
         
-        <table>
-            <thead>
-                <tr>
-                    <th>Dia</th>
-                    <th>Horário</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Segunda</td>
-                    <td>8h ~ 20h</td>
-                </tr>
-                <tr>
-                    <td>Quarta</td>
-                    <td>8h ~ 20h</td>
-                </tr>
-                <tr>
-                    <td>Sexta</td>
-                    <td>8h ~ 20h</td>
-                </tr>
-            </tbody>
-        </table>
     </main>
 </body>
 

@@ -1,0 +1,8 @@
+
+.banner {
+	width: 50vw;
+}
+
+<div class="banner">
+			<img src="../imagens/banner.png" alt="banner">
+		</div>
